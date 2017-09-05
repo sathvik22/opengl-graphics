@@ -1,11 +1,3 @@
-////////////////////////////////////////////////////////////////////////
-//
-//   Harvard University
-//   CS175 : Computer Graphics
-//   Professor Steven Gortler
-//
-////////////////////////////////////////////////////////////////////////
-
 #include <cstddef>
 #include <vector>
 #include <list>
@@ -49,19 +41,6 @@ using namespace tr1;
 
 // G L O B A L S ///////////////////////////////////////////////////
 
-// --------- IMPORTANT --------------------------------------------------------
-// Before you start working on this assignment, set the following variable
-// properly to indicate whether you want to use OpenGL 2.x with GLSL 1.0 or
-// OpenGL 3.x+ with GLSL 1.5.
-//
-// Set g_Gl2Compatible = true to use GLSL 1.0 and g_Gl2Compatible = false to
-// use GLSL 1.5. Use GLSL 1.5 unless your system does not support it.
-//
-// If g_Gl2Compatible=true, shaders with -gl2 suffix will be loaded.
-// If g_Gl2Compatible=false, shaders with -gl3 suffix will be loaded.
-// To complete the assignment you only need to edit the shader files that get
-// loaded
-// ----------------------------------------------------------------------------
 const bool g_Gl2Compatible = false;
 
 

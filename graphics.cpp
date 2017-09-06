@@ -1050,7 +1050,7 @@ static void initGlutState(int argc, char * argv[]) {
   glutInitDisplayMode(GLUT_RGBA|GLUT_DOUBLE|GLUT_DEPTH);  //  RGBA pixel channels and double buffering
 #endif
   glutInitWindowSize(g_windowWidth, g_windowHeight);      // create a window
-  glutCreateWindow("Assignment 8");                       // title the window
+  glutCreateWindow("Graphics");                       // title the window
 
   glutIgnoreKeyRepeat(true);                              // avoids repeated keyboard calls when holding space to emulate middle mouse
 
